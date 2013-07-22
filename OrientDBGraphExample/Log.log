@@ -1,0 +1,183 @@
+2013-07-22 10:14:46,800 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:14:48,459 INFO [main] App.main(31) | ya existe DB
+2013-07-22 10:16:16,516 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:16:18,922 INFO [main] App.main(28) | crea DB
+2013-07-22 10:16:21,671 INFO [main] App.main(66) | results.size():1
+2013-07-22 10:16:21,672 INFO [main] App.main(69) | result.field[]
+2013-07-22 10:17:34,270 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:17:36,064 INFO [main] App.main(31) | ya existe DB
+2013-07-22 10:31:02,540 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:31:04,257 INFO [main] App.main(64) | ya existe DB
+2013-07-22 10:31:53,443 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:31:55,195 INFO [main] App.main(65) | ya existe DB
+2013-07-22 10:31:57,874 INFO [main] App.main(70) | results.size():1
+2013-07-22 10:31:57,875 INFO [main] App.main(73) | result.field: []
+2013-07-22 10:31:57,875 INFO [main] App.main(74) | result.field: null
+2013-07-22 10:32:24,236 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:32:25,935 INFO [main] App.main(65) | ya existe DB
+2013-07-22 10:32:28,586 INFO [main] App.main(70) | results.size():2
+2013-07-22 10:32:28,587 INFO [main] App.main(73) | result.field: []
+2013-07-22 10:32:28,587 INFO [main] App.main(74) | result.field: null
+2013-07-22 10:32:28,587 INFO [main] App.main(73) | result.field: []
+2013-07-22 10:32:28,587 INFO [main] App.main(74) | result.field: null
+2013-07-22 10:35:36,215 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:35:37,969 INFO [main] App.main(65) | ya existe DB
+2013-07-22 10:35:40,575 INFO [main] App.main(70) | results.size():2
+2013-07-22 10:35:40,576 INFO [main] App.main(73) | result.field: []
+2013-07-22 10:35:40,576 INFO [main] App.main(74) | result.field: null
+2013-07-22 10:35:40,576 INFO [main] App.main(75) | result.field: null
+2013-07-22 10:35:40,577 INFO [main] App.main(73) | result.field: []
+2013-07-22 10:35:40,577 INFO [main] App.main(74) | result.field: null
+2013-07-22 10:35:40,578 INFO [main] App.main(75) | result.field: null
+2013-07-22 10:36:23,492 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:36:25,369 INFO [main] App.main(65) | ya existe DB
+2013-07-22 10:36:25,380 INFO [main] App.main(71) | results.size():3
+2013-07-22 10:36:25,382 INFO [main] App.main(74) | result.field: null
+2013-07-22 10:36:25,382 INFO [main] App.main(75) | result.field: null
+2013-07-22 10:36:25,383 INFO [main] App.main(76) | result.field: null
+2013-07-22 10:36:25,383 INFO [main] App.main(74) | result.field: null
+2013-07-22 10:36:25,383 INFO [main] App.main(75) | result.field: null
+2013-07-22 10:36:25,384 INFO [main] App.main(76) | result.field: null
+2013-07-22 10:36:25,385 INFO [main] App.main(74) | result.field: null
+2013-07-22 10:36:25,385 INFO [main] App.main(75) | result.field: null
+2013-07-22 10:36:25,385 INFO [main] App.main(76) | result.field: null
+2013-07-22 10:55:53,410 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:55:55,139 INFO [main] App.main(65) | ya existe DB
+2013-07-22 10:55:55,146 INFO [main] App.main(70) | results.size():3
+2013-07-22 10:55:55,147 INFO [main] App.main(73) | result.field: null
+2013-07-22 10:55:55,160 INFO [main] App.main(74) | result.json(): {"@type":"d","@rid":"#13:0","@version":1,"@class":"Attends","out":"#11:0","in":"#12:0"}
+2013-07-22 10:55:55,160 INFO [main] App.main(73) | result.field: null
+2013-07-22 10:55:55,162 INFO [main] App.main(74) | result.json(): {"@type":"d","@rid":"#13:1","@version":1,"@class":"Attends","out":"#11:1","in":"#12:0"}
+2013-07-22 10:55:55,162 INFO [main] App.main(73) | result.field: null
+2013-07-22 10:55:55,166 INFO [main] App.main(74) | result.json(): {"@type":"d","@rid":"#13:2","@version":1,"@class":"Attends","out":"#11:1","in":"#12:1"}
+2013-07-22 10:56:19,327 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:56:21,071 INFO [main] App.main(65) | ya existe DB
+2013-07-22 10:56:21,080 INFO [main] App.main(70) | results.size():2
+2013-07-22 10:56:21,080 INFO [main] App.main(73) | result.field: null
+2013-07-22 10:56:21,094 INFO [main] App.main(74) | result.json(): {"@type":"d","@rid":"#11:0","@version":1,"@class":"Student","name":"John","out":["#13:0"],"@fieldTypes":"out=e"}
+2013-07-22 10:56:21,095 INFO [main] App.main(73) | result.field: null
+2013-07-22 10:56:21,098 INFO [main] App.main(74) | result.json(): {"@type":"d","@rid":"#11:1","@version":2,"@class":"Student","name":"Betty","out":["#13:1","#13:2"],"@fieldTypes":"out=e"}
+2013-07-22 10:59:27,504 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 10:59:29,365 INFO [main] App.main(65) | ya existe DB
+2013-07-22 10:59:29,373 INFO [main] App.main(70) | results.size():2
+2013-07-22 10:59:29,375 INFO [main] App.main(73) | result.field: Student#11:0{name:John,out:[1]} v1
+2013-07-22 10:59:29,387 INFO [main] App.main(74) | result.json(): {"@type":"d","@rid":"#11:0","@version":1,"@class":"Student","name":"John","out":["#13:0"],"@rid":"#11:0","@fieldTypes":"out=e"}
+2013-07-22 10:59:29,387 INFO [main] App.main(75) | result.field: John
+2013-07-22 10:59:29,391 INFO [main] App.main(73) | result.field: Student#11:1{name:Betty,out:[2]} v2
+2013-07-22 10:59:29,393 INFO [main] App.main(74) | result.json(): {"@type":"d","@rid":"#11:1","@version":2,"@class":"Student","name":"Betty","out":["#13:1","#13:2"],"@rid":"#11:1","@fieldTypes":"out=e"}
+2013-07-22 10:59:29,394 INFO [main] App.main(75) | result.field: Betty
+2013-07-22 11:01:05,699 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:01:07,615 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:01:07,622 INFO [main] App.main(70) | results.size():2
+2013-07-22 11:01:07,635 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#12:0","@version":2,"@class":"Course","title":"Algebra","in":["#13:0","#13:1"],"@fieldTypes":"in=e"}
+2013-07-22 11:01:07,636 INFO [main] App.main(75) | result.field: Algebra
+2013-07-22 11:01:07,637 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#12:1","@version":1,"@class":"Course","title":"Literature","in":["#13:2"],"@fieldTypes":"in=e"}
+2013-07-22 11:01:07,638 INFO [main] App.main(75) | result.field: Literature
+2013-07-22 11:04:33,221 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:04:35,206 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:04:35,215 INFO [main] App.main(70) | results.size():3
+2013-07-22 11:04:35,234 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:0","@version":1,"@class":"Attends","out":"#11:0","in":"#12:0"}
+2013-07-22 11:04:35,238 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:1","@version":1,"@class":"Attends","out":"#11:1","in":"#12:0"}
+2013-07-22 11:04:35,240 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:2","@version":1,"@class":"Attends","out":"#11:1","in":"#12:1"}
+2013-07-22 11:19:08,158 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:19:09,913 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:19:09,920 INFO [main] App.main(70) | results.size():0
+2013-07-22 11:19:36,740 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:19:38,630 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:19:38,637 INFO [main] App.main(70) | results.size():0
+2013-07-22 11:20:52,896 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:20:54,599 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:20:54,616 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#11:0","@version":1,"@class":"Student","name":"John","out":["#13:0"],"@fieldTypes":"out=e"}
+2013-07-22 11:21:40,198 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:21:42,019 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:21:42,043 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#11:0","@version":1,"@class":"Student","name":"John","out":["#13:0"],"@fieldTypes":"out=e"}
+2013-07-22 11:21:42,044 INFO [main] App.main(76) | result.field: Student#11:0{name:John,out:[1]} v1
+2013-07-22 11:22:43,796 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:22:45,563 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:22:45,589 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#11:0","@version":1,"@class":"Student","name":"John","out":["#13:0"],"@fieldTypes":"out=e"}
+2013-07-22 11:22:45,589 INFO [main] App.main(76) | result.field: null
+2013-07-22 11:22:45,590 INFO [main] App.main(77) | result.field: [#13:0=#13:0]
+2013-07-22 11:23:16,443 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:23:18,176 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:23:18,195 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#11:0","@version":1,"@class":"Student","name":"John","out":["#13:0"],"@fieldTypes":"out=e"}
+2013-07-22 11:23:18,196 INFO [main] App.main(76) | result.field: Student#11:0{name:John,out:[1]} v1
+2013-07-22 11:23:18,196 INFO [main] App.main(77) | result.field: [#13:0=#13:0]
+2013-07-22 11:23:18,199 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#11:1","@version":2,"@class":"Student","name":"Betty","out":["#13:1","#13:2"],"@fieldTypes":"out=e"}
+2013-07-22 11:23:18,201 INFO [main] App.main(76) | result.field: Student#11:1{name:Betty,out:[2]} v2
+2013-07-22 11:23:18,201 INFO [main] App.main(77) | result.field: [#13:1=#13:1,#13:2=#13:2]
+2013-07-22 11:23:47,346 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:23:49,012 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:23:49,031 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#11:1","@version":2,"@class":"Student","name":"Betty","out":["#13:1","#13:2"],"@fieldTypes":"out=e"}
+2013-07-22 11:23:49,031 INFO [main] App.main(74) | result.field: Betty
+2013-07-22 11:23:49,032 INFO [main] App.main(76) | result.field: Student#11:1{name:Betty,out:[2]} v2
+2013-07-22 11:24:31,996 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:24:33,747 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:24:57,096 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:24:58,886 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:24:58,893 INFO [main] App.main(70) | results.size():0
+2013-07-22 11:25:12,619 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:25:14,285 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:25:14,291 INFO [main] App.main(70) | results.size():0
+2013-07-22 11:25:32,590 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:25:34,306 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:25:34,315 INFO [main] App.main(70) | results.size():3
+2013-07-22 11:25:34,327 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:0","@version":1,"@class":"Attends","out":"#11:0","in":"#12:0"}
+2013-07-22 11:25:34,331 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:1","@version":1,"@class":"Attends","out":"#11:1","in":"#12:0"}
+2013-07-22 11:25:34,334 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:2","@version":1,"@class":"Attends","out":"#11:1","in":"#12:1"}
+2013-07-22 11:26:36,896 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:26:38,526 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:27:00,077 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:27:01,737 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:27:27,663 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:27:29,330 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:27:29,340 INFO [main] App.main(70) | results.size():0
+2013-07-22 11:27:44,477 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:27:46,172 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:27:46,179 INFO [main] App.main(70) | results.size():2
+2013-07-22 11:27:46,191 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:1","@version":1,"@class":"Attends","out":"#11:1","in":"#12:0"}
+2013-07-22 11:27:46,193 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:2","@version":1,"@class":"Attends","out":"#11:1","in":"#12:1"}
+2013-07-22 11:28:17,607 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:28:19,292 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:28:19,299 INFO [main] App.main(70) | results.size():3
+2013-07-22 11:28:19,311 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:0","@version":1,"@class":"Attends","out":"#11:0","in":"#12:0"}
+2013-07-22 11:28:19,313 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:1","@version":1,"@class":"Attends","out":"#11:1","in":"#12:0"}
+2013-07-22 11:28:19,315 INFO [main] App.main(73) | result.json(): {"@type":"d","@rid":"#13:2","@version":1,"@class":"Attends","out":"#11:1","in":"#12:1"}
+2013-07-22 11:31:33,873 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 11:31:35,622 INFO [main] App.main(65) | ya existe DB
+2013-07-22 11:31:35,629 INFO [main] App.main(71) | results.size():1
+2013-07-22 11:31:35,643 INFO [main] App.main(74) | result.json(): {"@type":"d","@rid":"#11:1","@version":2,"@class":"Student","name":"Betty","out":["#13:1","#13:2"],"@fieldTypes":"out=e"}
+2013-07-22 12:12:07,129 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:12:09,631 INFO [main] App.main(32) | crea DB
+2013-07-22 12:12:09,876 INFO [main] App.main(76) | results.size():0
+2013-07-22 12:12:31,752 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:12:33,500 INFO [main] App.main(70) | ya existe DB
+2013-07-22 12:12:33,502 INFO [main] App.main(76) | results.size():0
+2013-07-22 12:13:29,848 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:13:32,121 INFO [main] App.main(32) | crea DB
+2013-07-22 12:13:32,382 INFO [main] App.main(77) | results.size():1
+2013-07-22 12:14:13,025 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:14:15,075 INFO [main] App.main(65) | ya existe DB
+2013-07-22 12:14:34,115 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:14:36,727 INFO [main] App.main(32) | crea DB
+2013-07-22 12:14:36,912 INFO [main] App.main(78) | results.size():1
+2013-07-22 12:18:25,807 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:18:28,144 INFO [main] App.main(32) | crea DB
+2013-07-22 12:18:28,338 INFO [main] App.main(78) | results.size():1
+2013-07-22 12:18:49,801 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:18:51,521 INFO [main] App.main(65) | ya existe DB
+2013-07-22 12:25:41,919 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:25:43,713 INFO [main] App.main(65) | ya existe DB
+2013-07-22 12:26:28,217 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:26:29,906 INFO [main] App.main(65) | ya existe DB
+2013-07-22 12:27:04,614 INFO [main] App.main(25) | ::::::::::::::::
+2013-07-22 12:27:06,333 INFO [main] App.main(64) | ya existe DB
+2013-07-22 12:27:06,437 INFO [main] App.main(86) | results.size():1
+2013-07-22 12:27:06,438 INFO [main] App.main(88) | Student.getFirstName(): hector
+2013-07-22 12:32:41,633 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 12:32:43,270 INFO [main] App.main(30) | crea DB
+2013-07-22 12:32:43,331 INFO [main] App.main(69) | result.field: John
+2013-07-22 12:32:43,332 INFO [main] App.main(69) | result.field: Betty
+2013-07-22 12:32:54,921 INFO [main] App.main(24) | ::::::::::::::::
+2013-07-22 12:32:56,741 INFO [main] App.main(30) | crea DB
+2013-07-22 12:32:56,798 INFO [main] App.main(69) | result.field: John
+2013-07-22 12:32:56,799 INFO [main] App.main(69) | result.field: Betty

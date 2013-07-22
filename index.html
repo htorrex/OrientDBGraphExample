@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Orientdbgraphexample : Ejemplo OrientDB Graph" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Orientdbgraphexample</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/htorrex/OrientDBGraphExample">View on GitHub</a>
+
+          <h1 id="project_title">Orientdbgraphexample</h1>
+          <h2 id="project_tagline">Ejemplo OrientDB Graph</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/htorrex/OrientDBGraphExample/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/htorrex/OrientDBGraphExample/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="example-to-orientdb" class="anchor" href="#example-to-orientdb"><span class="octicon octicon-link"></span></a>Example to OrientDB</h3>
+
+<h1></h1>
+
+<p>Very basic OrientDB Graph Example
+Create an empty maven application project and add following lines to pom.xml:</p>
+
+<pre><code>&lt;repositories&gt;
+  &lt;repository&gt;
+    &lt;id&gt;Sonatype Releases&lt;/id&gt;
+    &lt;url&gt;https://oss.sonatype.org/content/repositories/releases/&lt;/url&gt;
+  &lt;/repository&gt;
+  &lt;repository&gt;
+    &lt;id&gt;Sonatype Snapshots&lt;/id&gt;
+    &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;
+  &lt;/repository&gt;
+&lt;/repositories&gt;
+</code></pre>
+
+<p>We will be using snapshot version of OrientDB Graph Edition as it seems it is the only way to get it via maven.</p>
+
+<p>And add this to dependencies:</p>
+
+<pre><code>&lt;dependency&gt;
+  &lt;groupId&gt;com.orientechnologies&lt;/groupId&gt;
+  &lt;artifactId&gt;orientdb-graphdb&lt;/artifactId&gt;
+  &lt;version&gt;1.4.2-SNAPSHOT&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<p>Try to build the project and make sure that all dependencies are downloaded. And then we can start with the actual code.</p>
+
+<p>First lets initialize the database object:</p>
+
+<pre><code>OGraphDatabase db = new OGraphDatabase(PATH);
+</code></pre>
+
+<p>The PATH is a path to where the database is located. For the sake of this example I will be using an in-memory database, so my path is "memory:db".</p>
+
+<p>We need to create a database:</p>
+
+<pre><code>db.create();
+</code></pre>
+
+<p>If you're using an in-file database, you would do this as: C:\database</p>
+
+<pre><code>if (!db.exists()) {
+  db.create();
+} else {
+  db.open("admin", "admin");
+}
+</code></pre>
+
+<p>The default username/password is always admin/admin.</p>
+
+<p>In the Graph Edition of the OrientDB we have a (vertex, edge) structure, where each  vertex and edge is a document. We can create custom classes for vertices and edges.</p>
+
+<pre><code>db.createVertexType("Student");
+db.createVertexType("Course");
+db.createEdgeType("Attends");
+</code></pre>
+
+<p>So here we create Student, Course and Attends classes. Now lets populate some data into the graph:</p>
+
+<pre><code>ODocument student1 = db.createVertex("Student");
+student1.field("name", "John");
+student1.save();
+
+ODocument course1 = db.createVertex("Course");
+course1.field("title", "Algebra");
+course1.save();
+
+ODocument attends = db.createEdge (student1, course1, "Attends");
+attends.save();
+</code></pre>
+
+<p>To get the data from OrientDB we can use SQL language like this:</p>
+
+<pre><code>List&lt;ODocument&gt; results = db.query(new OSQLSynchQuery("select from Student"));
+for (ODocument result: results) {
+      //log.info("result.json(): "+result.toJSON());
+        log.info("result.field: "+result.field("name"));
+}
+</code></pre>
+
+<p>After that you can play with this example and improve your implementation.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Orientdbgraphexample maintained by <a href="https://github.com/htorrex">htorrex</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("orientdb example");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
